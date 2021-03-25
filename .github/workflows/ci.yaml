@@ -27,8 +27,5 @@ jobs:
       - name: Build
         run: npm build
 
-      - name: Run the app
-        run: npm start &
-
-      - name: Run the tests
-        run: npm run cy:run
+      - name: Run cypress tests
+        run: npm run ci
